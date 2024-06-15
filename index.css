@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.sun {
+    border-radius: 8px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: url(https://t4.ftcdn.net/jpg/01/25/86/35/360_F_125863509_jaISqQt7MOfhOT3UxRTHZoEbMmmFYIr8.jpg) no-repeat center center/cover;
+}
+
+.moon {
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1200px-FullMoon2010.jpg)no-repeat center center/cover;
+}
+.dark {
+    background-color: #0f0e0e;
+    color: white;
+}
+nav {
+  width: 100%;
+  height: 100px;
+}
+.container {
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
+.n-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.n-center {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  a{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    color: #274C5B;
+  }
+}
+
+.n-on {
+display: flex;
+align-items: center;
+gap: 8px;
+.search{
+    width: 56px;
+    height: 56px;
+}
+
+}
+
+.u-main img{
+    width: 100%;
+    height: 400px;
+}
+
+.h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: #274C5B;
+}
+.text {
+text-align: center;
+padding-top: 199px;
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #525C60;
+    padding-top: 16px;
+}
+}
+.h-main{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 30px;
+   padding: 60px 0;
+
+}
+
+.card{
+    width: 100%;
+    background-color: #F9F8F8;
+    
+    img{
+        width: 100%;
+    }
+    .icons img{
+        width: 22px;
+        height: 21px;
+    }
+}
+.txt{
+    width: 400px;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.txt h6{
+    font-size: 25px;
+    font-weight: 800;
+    color: #274C5B;
+}
+
+
+.a-main{
+    background: url("images/Background\ \(5\).png") no-repeat center center/cover;
+    width: 100%;
+    height: 323px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.chap {
+.h22{
+    
+        font-size: 50px;
+        font-weight: 800;
+        color: #fff;
+       
+    
+}
+
+}
+.on{
+.inp{
+    width: 350px;
+    height: 80px;
+    border-radius: 16px;
+    border: 0;
+    text-align: center;
+}
+.btn12{
+    width: 220px;
+    height: 80px;
+    background-color:#274C5B;
+    border-radius: 20px;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+}
+
+
+@media (max-width: 1310px) {
+    .h-main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+        padding: 60px 0;
+     
+     }
+     
+
+}
+
+@media (max-width: 865px) {
+    .h-main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        padding: 60px 0;
+     
+     }
+     
+
+}
+
+
+@media (max-width: 975px) {
+    .a-main{
+        background: url("images/Background\ \(5\).png") no-repeat center center/cover;
+        width: 100%;
+        height: 323px;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns:repeat(1,1fr) ;
+        text-align: center;
+    }
+    
+}
